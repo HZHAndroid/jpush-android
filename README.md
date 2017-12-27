@@ -13,4 +13,4 @@ classpath 'com.android.tools.build:gradle:2.3.2'改为自己Android studio支持
 四、	解决极光推送找不到sdk版本问题。如图所示，进行配置。（看图 解决极光推送找不到sdk版本问题.png）
 五、	集成可以参考“hzh集成的测试项目JpushTest”，其目录结构如下图所示，并且将图中的receivers和utils文件夹下文件拷贝到项目中。（看图 hzh集成的测试项目JpushTest目录结构.png）
 六、	集成完成后，在继承Application的类的onCreate方法调用JPushInterface.setDebugMode(true); JPushInterface.init(this);
-提示：具体的参数“hzh集成的测试项目JpushTest”
+提示：具体的参数“hzh集成的测试项目JpushTest” 
